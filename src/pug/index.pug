@@ -1,14 +1,14 @@
 doctype html
-html(lang='en')
+html(lang='pt')
 
     head
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Centro Cultural e Desportivo de Macieira')
+        meta(name='author', content='CCDM Macieira')
 
-        title Modern Business - Start Bootstrap Template
+        title CCDM Macieira | Centro Cultural e Desportivo de Macieira
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -22,136 +22,247 @@ html(lang='en')
             // Navigation
             include includes/navbar.pug
 
-            // Header
-            header.bg-dark.py-5
+            // Hero
+            section.hero-ccdm.hero-alt.py-5
                 .container.px-5
-                    .row.gx-5.align-items-center.justify-content-center
-                        .col-lg-8.col-xl-7.col-xxl-6
-                            .my-5.text-center.text-xl-start
-                                h1.display-5.fw-bolder.text-white.mb-2 A Bootstrap 5 template for modern businesses
-                                p.lead.fw-normal.text-white-50.mb-4 Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit! 
-                                .d-grid.gap-3.d-sm-flex.justify-content-sm-center.justify-content-xl-start
-                                    a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#features') Get Started
-                                    a.btn.btn-outline-light.btn-lg.px-4(href='#!') Learn More
-                        .col-xl-5.col-xxl-6.d-none.d-xl-block.text-center
-                            img.img-fluid.rounded-3.my-5(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                    .row.gx-5.align-items-center
+                        .col-lg-6
+                            .hero-badge.text-uppercase.small.fw-semibold.mb-3 CCDM Macieira
+                            h1.display-4.fw-bolder.text-white.mb-3
+                                | Cultura e desporto com
+                                br
+                                | orgulho em Macieira
+                            p.lead.text-white-50.mb-4
+                                | Somos o Centro Cultural e Desportivo de Macieira. Criamos oportunidades para jogar futebol,
+                                | subir ao palco no teatro e viver a cultura local com toda a comunidade.
+                            .d-flex.flex-wrap.gap-3
+                                a.btn.btn-ccdm.btn-lg(href='#socios') Quero ser sócio
+                                a.btn.btn-outline-ccdm.btn-lg(href='#atividades') Ver modalidades
+                            .hero-highlight.mt-4.p-3.p-lg-4.rounded-4
+                                .d-flex.flex-wrap.gap-4
+                                    .hero-metric
+                                        p.small.text-white-50.mb-1 Futebol
+                                        p.h4.text-white.mb-0 Treinos semanais
+                                    .hero-metric
+                                        p.small.text-white-50.mb-1 Teatro
+                                        p.h4.text-white.mb-0 Oficinas criativas
+                                    .hero-metric
+                                        p.small.text-white-50.mb-0 Cultura
+                                        p.h4.text-white.mb-0 Eventos locais
+                        .col-lg-6.text-center
+                            .hero-logo-wrap.mx-auto
+                                img.img-fluid.hero-logo(src='assets/ccdm-logo.svg', alt='Logótipo do CCDM Macieira')
 
-            // Features section
-            section#features.py-5
+            // Associação
+            section#sobre.py-5
                 .container.px-5.my-5
-                    .row.gx-5
-                        .col-lg-4.mb-5.mb-lg-0
-                            h2.fw-bolder.mb-0 A better way to start building.
-                        .col-lg-8
-                            .row.gx-5.row-cols-1.row-cols-md-2
-                                .col.mb-5.h-100
-                                    .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
-                                        i.bi.bi-collection
-                                    h2.h5 Featured title
-                                    p.mb-0
-                                        | Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
-                                .col.mb-5.h-100
-                                    .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
-                                        i.bi.bi-building
-                                    h2.h5 Featured title
-                                    p.mb-0
-                                        | Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
-                                .col.mb-5.mb-md-0.h-100
-                                    .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
-                                        i.bi.bi-toggles2
-                                    h2.h5 Featured title
-                                    p.mb-0
-                                        | Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
-                                .col.h-100
-                                    .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
-                                        i.bi.bi-toggles2
-                                    h2.h5 Featured title
-                                    p.mb-0
-                                        | Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.
+                    .row.gx-5.align-items-center
+                        .col-lg-5
+                            h2.section-title.mb-3 A nossa associação
+                            p.lead.text-muted.mb-4
+                                | O CCDM nasceu para unir pessoas e valorizar Macieira através do desporto, da cultura e do convívio.
+                            .info-card.p-4.rounded-4.shadow-sm.mb-4
+                                h3.h6.text-uppercase.text-muted.mb-2 Missão
+                                p.mb-0 Promover o desenvolvimento cultural e desportivo, com iniciativas para todas as idades.
+                            .info-card.p-4.rounded-4.shadow-sm
+                                h3.h6.text-uppercase.text-muted.mb-2 Valores
+                                p.mb-0 Inclusão, respeito, espírito de equipa e orgulho local.
+                        .col-lg-7
+                            .row.g-4
+                                .col-md-6
+                                    .impact-card.p-4.rounded-4.shadow-sm
+                                        i.bi.bi-people-fill.text-ccdm-red.fs-3.mb-3
+                                        h3.h5.fw-bolder Comunidade ativa
+                                        p.text-muted.mb-0 Atividades regulares que aproximam gerações.
+                                .col-md-6
+                                    .impact-card.p-4.rounded-4.shadow-sm
+                                        i.bi.bi-trophy-fill.text-ccdm-red.fs-3.mb-3
+                                        h3.h5.fw-bolder Futebol
+                                        p.text-muted.mb-0 Equipas em competição e formação contínua.
+                                .col-md-6
+                                    .impact-card.p-4.rounded-4.shadow-sm
+                                        i.bi.bi-mask.text-ccdm-red.fs-3.mb-3
+                                        h3.h5.fw-bolder Teatro
+                                        p.text-muted.mb-0 Ensaios, oficinas e espetáculos abertos.
+                                .col-md-6
+                                    .impact-card.p-4.rounded-4.shadow-sm
+                                        i.bi.bi-mic-fill.text-ccdm-red.fs-3.mb-3
+                                        h3.h5.fw-bolder Cultura local
+                                        p.text-muted.mb-0 Festas tradicionais, música e encontros culturais.
 
-            // Testimonial section
-            .py-5.bg-light
+            // Modalidades
+            section#atividades.py-5.bg-light
                 .container.px-5.my-5
-                    .row.gx-5.justify-content-center
-                        .col-lg-10.col-xl-7
-                            .text-center
-                                .fs-4.mb-4.fst-italic "Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"
-                                .d-flex.align-items-center.justify-content-center
-                                    img.rounded-circle.me-3(src='https://dummyimage.com/40x40/ced4da/6c757d', alt='...')
-                                    .fw-bold
-                                        | Tom Ato
-                                        span.fw-bold.text-primary.mx-1 /
-                                        | CEO, Pomodoro
+                    .text-center.mb-5
+                        h2.section-title Modalidades & Clubes
+                        p.lead.text-muted.mb-0 Projetos que mantêm a energia do CCDM ao longo do ano.
+                    .row.gx-5.row-cols-1.row-cols-md-2.row-cols-xl-4
+                        .col.mb-4
+                            .card.h-100.border-0.shadow-sm
+                                .card-body.p-4
+                                    .icon-pill.bg-ccdm-red.text-white.mb-3
+                                        i.bi.bi-dribbble
+                                    h3.h5.fw-bolder Futebol
+                                    p.text-muted.mb-0 Treinos, torneios e equipa sénior do CCDM.
+                        .col.mb-4
+                            .card.h-100.border-0.shadow-sm
+                                .card-body.p-4
+                                    .icon-pill.bg-ccdm-red.text-white.mb-3
+                                        i.bi.bi-mask
+                                    h3.h5.fw-bolder Teatro
+                                    p.text-muted.mb-0 Clube de teatro com programação anual.
+                        .col.mb-4
+                            .card.h-100.border-0.shadow-sm
+                                .card-body.p-4
+                                    .icon-pill.bg-ccdm-red.text-white.mb-3
+                                        i.bi.bi-music-note-beamed
+                                    h3.h5.fw-bolder Cultura
+                                    p.text-muted.mb-0 Eventos culturais e apoio a artistas locais.
+                        .col.mb-4
+                            .card.h-100.border-0.shadow-sm
+                                .card-body.p-4
+                                    .icon-pill.bg-ccdm-red.text-white.mb-3
+                                        i.bi.bi-people
+                                    h3.h5.fw-bolder Comunidade
+                                    p.text-muted.mb-0 Encontros, voluntariado e ação social.
 
-            // Blog preview section
-            section.py-5
+            // Sócios & Quotas
+            section#socios.py-5
                 .container.px-5.my-5
-                    .row.gx-5.justify-content-center
-                        .col-lg-8.col-xl-6
-                            .text-center
-                                h2.fw-bolder From our blog
-                                p.lead.fw-normal.text-muted.mb-5 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.
-                    .row.gx-5
-                        .col-lg-4.mb-5
-                            .card.h-100.shadow.border-0
-                                img.card-img-top(src='https://dummyimage.com/600x350/ced4da/6c757d', alt='...')
-                                .card-body.p-4
-                                    .badge.bg-primary.bg-gradient.rounded-pill.mb-2 News
-                                    a.text-decoration-none.link-dark.stretched-link(href='#!')
-                                        h5.card-title.mb-3 Blog post title
-                                    p.card-text.mb-0
-                                        | Some quick example text to build on the card title and make up the bulk of the card's content.
-                                .card-footer.p-4.pt-0.bg-transparent.border-top-0
-                                    .d-flex.align-items-end.justify-content-between
-                                        .d-flex.align-items-center
-                                            img.rounded-circle.me-3(src='https://dummyimage.com/40x40/ced4da/6c757d', alt='...')
-                                            .small
-                                                .fw-bold Kelly Rowan
-                                                .text-muted March 12, 2021 &middot; 6 min read
-                        .col-lg-4.mb-5
-                            .card.h-100.shadow.border-0
-                                img.card-img-top(src='https://dummyimage.com/600x350/adb5bd/495057', alt='...')
-                                .card-body.p-4
-                                    .badge.bg-primary.bg-gradient.rounded-pill.mb-2 Media
-                                    a.text-decoration-none.link-dark.stretched-link(href='#!')
-                                        h5.card-title.mb-3 Another blog post title
-                                    p.card-text.mb-0
-                                        | This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.
-                                .card-footer.p-4.pt-0.bg-transparent.border-top-0
-                                    .d-flex.align-items-end.justify-content-between
-                                        .d-flex.align-items-center
-                                            img.rounded-circle.me-3(src='https://dummyimage.com/40x40/ced4da/6c757d', alt='...')
-                                            .small
-                                                .fw-bold Josiah Barclay
-                                                .text-muted March 23, 2021 &middot; 4 min read
-                        .col-lg-4.mb-5
-                            .card.h-100.shadow.border-0
-                                img.card-img-top(src='https://dummyimage.com/600x350/6c757d/343a40', alt='...')
-                                .card-body.p-4
-                                    .badge.bg-primary.bg-gradient.rounded-pill.mb-2 News
-                                    a.text-decoration-none.link-dark.stretched-link(href='#!')
-                                        h5.card-title.mb-3 The last blog post title is a little bit longer than the others
-                                    p.card-text.mb-0
-                                        | Some more quick example text to build on the card title and make up the bulk of the card's content.
-                                .card-footer.p-4.pt-0.bg-transparent.border-top-0
-                                    .d-flex.align-items-end.justify-content-between
-                                        .d-flex.align-items-center
-                                            img.rounded-circle.me-3(src='https://dummyimage.com/40x40/ced4da/6c757d', alt='...')
-                                            .small
-                                                .fw-bold Evelyn Martinez
-                                                .text-muted April 2, 2021 &middot; 10 min read
+                    .row.gx-5.align-items-start
+                        .col-lg-7
+                            h2.section-title Sócios & Quotas
+                            p.lead.text-muted.mb-4
+                                | Torna-te sócio e ajuda-nos a manter o futebol, o teatro e a cultura vivos em Macieira.
+                            .pricing-panel.p-4.rounded-4.shadow-sm.mb-4
+                                .row.g-4
+                                    .col-md-4
+                                        .pricing-tier
+                                            p.text-uppercase.small.text-muted.mb-1 Sócio efetivo
+                                            h3.h4.fw-bolder.text-ccdm-red 25€ / ano
+                                            p.text-muted.mb-0 Participação em assembleias e eventos.
+                                    .col-md-4
+                                        .pricing-tier
+                                            p.text-uppercase.small.text-muted.mb-1 Sócio jovem
+                                            h3.h4.fw-bolder.text-ccdm-red 15€ / ano
+                                            p.text-muted.mb-0 Até 18 anos.
+                                    .col-md-4
+                                        .pricing-tier
+                                            p.text-uppercase.small.text-muted.mb-1 Sócio benemérito
+                                            h3.h4.fw-bolder.text-ccdm-red Valor livre
+                                            p.text-muted.mb-0 Apoio extra ao CCDM.
+                            .d-flex.flex-wrap.gap-3
+                                a.btn.btn-ccdm.btn-lg(href='mailto:ccdm.macieira@gmail.com?subject=Inscri%C3%A7%C3%A3o%20de%20s%C3%B3cio%20CCDM') Quero ser sócio
+                                a.btn.btn-outline-ccdm.btn-lg(href='mailto:ccdm.macieira@gmail.com?subject=Pagamento%20de%20quotas%20CCDM') Pagar quotas
+                            p.small.text-muted.mt-3
+                                | Pagamentos disponíveis por transferência bancária, MB Way ou presencialmente na sede.
+                        .col-lg-5
+                            .card.border-0.shadow-sm
+                                .card-body.p-4.p-lg-5
+                                    h3.h5.fw-bolder.text-ccdm-red Pedido de adesão
+                                    form
+                                        .mb-3
+                                            label.form-label(for='nome') Nome completo
+                                            input#nome.form-control(type='text', placeholder='O seu nome')
+                                        .mb-3
+                                            label.form-label(for='email') Email
+                                            input#email.form-control(type='email', placeholder='email@exemplo.pt')
+                                        .mb-3
+                                            label.form-label(for='telefone') Telemóvel
+                                            input#telefone.form-control(type='tel', placeholder='9xx xxx xxx')
+                                        .mb-3
+                                            label.form-label(for='quota') Tipo de quota
+                                            select#quota.form-select
+                                                option(value='efetivo') Sócio efetivo
+                                                option(value='jovem') Sócio jovem
+                                                option(value='benemerito') Sócio benemérito
+                                        button.btn.btn-ccdm.w-100(type='button') Enviar pedido
+                                    p.small.text-muted.mt-3
+                                        | Receberá uma confirmação por email com os próximos passos.
 
-                    // Call to action
-                    aside.bg-primary.bg-gradient.rounded-3.p-4.p-sm-5.mt-5
-                        .d-flex.align-items-center.justify-content-between.flex-column.flex-xl-row.text-center.text-xl-start
-                            .mb-4.mb-xl-0
-                                .fs-3.fw-bold.text-white New products, delivered to you.
-                                .text-white-50 Sign up for our newsletter for the latest updates.
-                            .ms-xl-4
-                                .input-group.mb-2
-                                    input.form-control(type='text', placeholder='Email address...', aria-label='Email address...', aria-describedby='button-newsletter')
-                                    button#button-newsletter.btn.btn-outline-light(type='button') Sign up
-                                .small.text-white-50 We care about privacy, and will never share your data.
+            // Parceiros
+            section#parceiros.py-5.bg-light
+                .container.px-5.my-5
+                    .text-center.mb-5
+                        h2.section-title Parceiros
+                        p.lead.text-muted.mb-0 Obrigado às entidades que apoiam o CCDM.
+                    .row.gx-5.row-cols-1.row-cols-md-3
+                        .col.mb-4
+                            .partner-card.p-4.rounded-4.shadow-sm
+                                h3.h5.fw-bolder.text-ccdm-red Parceiro local
+                                p.text-muted.mb-0 Apoio regular às equipas de futebol e eventos culturais.
+                        .col.mb-4
+                            .partner-card.p-4.rounded-4.shadow-sm
+                                h3.h5.fw-bolder.text-ccdm-red Comércio amigo
+                                p.text-muted.mb-0 Contribuições para infraestruturas e eventos comunitários.
+                        .col.mb-4
+                            .partner-card.p-4.rounded-4.shadow-sm
+                                h3.h5.fw-bolder.text-ccdm-red Parceiro cultural
+                                p.text-muted.mb-0 Colaboração com o clube de teatro e projetos educativos.
+                    .text-center.mt-4
+                        a.btn.btn-outline-ccdm.btn-lg(href='mailto:ccdm.macieira@gmail.com?subject=Parcerias%20CCDM') Quero ser parceiro
+
+            // Agenda
+            section#agenda.py-5
+                .container.px-5.my-5
+                    .row.gx-5.align-items-center
+                        .col-lg-6
+                            h2.section-title Agenda
+                            p.lead.text-muted.mb-4
+                                | Consulta as datas dos jogos, ensaios e eventos culturais do CCDM.
+                            .schedule-card.p-4.rounded-4.shadow-sm
+                                ul.list-unstyled.mb-0
+                                    li.mb-3
+                                        h4.h6.fw-bolder.mb-1 Jogo da equipa sénior
+                                        p.text-muted.mb-0 Sábado, 17h00 - Campo Municipal
+                                    li.mb-3
+                                        h4.h6.fw-bolder.mb-1 Ensaios do teatro
+                                        p.text-muted.mb-0 Terça e quinta, 21h00 - Sede CCDM
+                                    li
+                                        h4.h6.fw-bolder.mb-1 Festa cultural
+                                        p.text-muted.mb-0 Próxima data divulgada nas redes sociais
+                        .col-lg-6
+                            .cta-card.p-4.rounded-4.shadow-sm
+                                h3.h5.fw-bolder.text-ccdm-red Agenda nas redes sociais
+                                p.text-muted.mb-4
+                                    | Segue-nos para saber tudo em primeira mão.
+                                .d-flex.flex-column.gap-3
+                                    a.btn.btn-ccdm.btn-lg(href='https://www.facebook.com/ccdm76/', target='_blank', rel='noopener') Facebook
+                                    a.btn.btn-outline-ccdm.btn-lg(href='https://www.instagram.com/ccdmacieira/', target='_blank', rel='noopener') Instagram
+
+            // Contactos
+            section#contactos.py-5.bg-light
+                .container.px-5.my-5
+                    .row.gx-5.align-items-start
+                        .col-lg-5
+                            h2.section-title Contactos
+                            p.lead.text-muted.mb-4
+                                | Fala connosco para saberes mais sobre o futebol, o teatro ou como participar.
+                            .contact-card.p-4.rounded-4.shadow-sm
+                                .d-flex.align-items-start.mb-3
+                                    i.bi.bi-geo-alt-fill.text-ccdm-red.me-3
+                                    div
+                                        h3.h6.fw-bolder.mb-1 Sede
+                                        p.text-muted.mb-0 Macieira, Portugal
+                                .d-flex.align-items-start.mb-3
+                                    i.bi.bi-envelope-fill.text-ccdm-red.me-3
+                                    div
+                                        h3.h6.fw-bolder.mb-1 Email
+                                        a.link-ccdm(href='mailto:ccdm.macieira@gmail.com') ccdm.macieira@gmail.com
+                                .d-flex.align-items-start
+                                    i.bi.bi-telephone-fill.text-ccdm-red.me-3
+                                    div
+                                        h3.h6.fw-bolder.mb-1 Telefone
+                                        p.text-muted.mb-0 +351 000 000 000
+                        .col-lg-7
+                            .card.border-0.shadow-sm
+                                .card-body.p-4.p-lg-5
+                                    h3.h5.fw-bolder.text-ccdm-red Redes sociais
+                                    p.text-muted.mb-4
+                                        | Segue o CCDM para não perderes anúncios, resultados e novidades.
+                                    .d-flex.flex-wrap.gap-3
+                                        a.btn.btn-ccdm(href='https://www.facebook.com/ccdm76/', target='_blank', rel='noopener') Facebook
+                                        a.btn.btn-outline-ccdm(href='https://www.instagram.com/ccdmacieira/', target='_blank', rel='noopener') Instagram
 
         // Footer
         include includes/footer.pug

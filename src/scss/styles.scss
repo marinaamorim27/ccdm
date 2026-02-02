@@ -7,6 +7,141 @@ html {
     height: 100%;
 }
 
+:root {
+    --ccdm-red: #990012;
+    --ccdm-black: #111111;
+    --ccdm-red-dark: #7a000e;
+}
+
+body {
+    background-color: #fff;
+}
+
+.bg-ccdm-black {
+    background-color: var(--ccdm-black) !important;
+}
+
+.bg-ccdm-red {
+    background-color: var(--ccdm-red) !important;
+}
+
+.text-ccdm-red {
+    color: var(--ccdm-red) !important;
+}
+
+.link-ccdm {
+    color: var(--ccdm-red);
+    text-decoration: none;
+}
+
+.link-ccdm:hover,
+.link-ccdm:focus {
+    color: var(--ccdm-red-dark);
+    text-decoration: underline;
+}
+
+.btn-ccdm {
+    background-color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+    color: #fff;
+}
+
+.btn-ccdm:hover,
+.btn-ccdm:focus {
+    background-color: var(--ccdm-red-dark);
+    border-color: var(--ccdm-red-dark);
+    color: #fff;
+}
+
+.btn-outline-ccdm {
+    color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+}
+
+.btn-outline-ccdm:hover,
+.btn-outline-ccdm:focus {
+    background-color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+    color: #fff;
+}
+
+.hero-ccdm {
+    background: linear-gradient(135deg, #0a0a0a 0%, #121212 45%, #2a0c0f 100%);
+}
+
+.hero-alt {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-alt::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top right, rgba(153, 0, 18, 0.35), transparent 55%);
+    pointer-events: none;
+}
+
+.hero-logo {
+    max-width: 360px;
+}
+
+.hero-logo-wrap {
+    max-width: 420px;
+    padding: 2.5rem 2rem;
+    border-radius: 2rem;
+    background: #fff;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.2);
+}
+
+.hero-badge {
+    display: inline-flex;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(153, 0, 18, 0.2);
+    color: #fff;
+}
+
+.hero-highlight {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+.hero-metric {
+    min-width: 140px;
+}
+
+.section-title {
+    color: var(--ccdm-red);
+    font-weight: 700;
+}
+
+.info-card,
+.impact-card,
+.partner-card,
+.pricing-panel,
+.schedule-card,
+.cta-card,
+.contact-card {
+    background-color: #fff;
+    border: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.icon-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.pricing-tier h3 {
+    margin-bottom: 0.5rem;
+}
+
 // Custom SCSS for feature component with Bootstrap icon
 .feature {
     display: inline-flex;
