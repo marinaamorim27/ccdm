@@ -7,6 +7,106 @@ html {
     height: 100%;
 }
 
+:root {
+    --ccdm-red: #990012;
+    --ccdm-black: #111111;
+    --ccdm-red-dark: #7a000e;
+}
+
+body {
+    background-color: #fff;
+}
+
+.bg-ccdm-black {
+    background-color: var(--ccdm-black) !important;
+}
+
+.bg-ccdm-red {
+    background-color: var(--ccdm-red) !important;
+}
+
+.text-ccdm-red {
+    color: var(--ccdm-red) !important;
+}
+
+.link-ccdm {
+    color: var(--ccdm-red);
+    text-decoration: none;
+}
+
+.link-ccdm:hover,
+.link-ccdm:focus {
+    color: var(--ccdm-red-dark);
+    text-decoration: underline;
+}
+
+.btn-ccdm {
+    background-color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+    color: #fff;
+}
+
+.btn-ccdm:hover,
+.btn-ccdm:focus {
+    background-color: var(--ccdm-red-dark);
+    border-color: var(--ccdm-red-dark);
+    color: #fff;
+}
+
+.btn-outline-ccdm {
+    color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+}
+
+.btn-outline-ccdm:hover,
+.btn-outline-ccdm:focus {
+    background-color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+    color: #fff;
+}
+
+.hero-ccdm {
+    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 45%, #2a0c0f 100%);
+}
+
+.hero-logo {
+    max-width: 360px;
+}
+
+.hero-card {
+    background-color: #fff;
+}
+
+.section-title {
+    color: var(--ccdm-red);
+    font-weight: 700;
+}
+
+.stat-card {
+    background-color: #fff;
+    border: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.icon-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.partner-card {
+    background-color: #fff;
+    border: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.timeline li {
+    padding-left: 0.5rem;
+    border-left: 3px solid rgba(153, 0, 18, 0.2);
+}
+
 // Custom SCSS for feature component with Bootstrap icon
 .feature {
     display: inline-flex;
