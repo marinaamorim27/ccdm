@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CCDM - Centro Cultural e Desportivo de Macieira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="brand">
+          <img src="assets/logo.svg" alt="Logótipo do CCDM" class="logo" />
+          <div>
+            <p class="brand-title">CCDM</p>
+            <p class="brand-subtitle">Centro Cultural e Desportivo de Macieira</p>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#modalidades">Modalidades</a>
+          <a href="#socios">Sócios</a>
+          <a href="#contactos">Contactos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Desde 1976</p>
+            <h1>Um ponto de encontro para a cultura, o desporto e a comunidade.</h1>
+            <p>
+              O CCDM promove o futebol, o teatro e iniciativas sociais que aproximam
+              gerações em Macieira. Junta-te a nós e faz parte desta história.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#socios">Torna-te sócio</a>
+              <a class="button button-outline" href="#modalidades">Conhecer atividades</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Agenda comunitária</h2>
+            <ul>
+              <li>Treinos da equipa de futebol todas as quartas e sextas.</li>
+              <li>Oficinas de teatro abertas à comunidade.</li>
+              <li>Eventos culturais ao longo do ano.</li>
+            </ul>
+            <div class="socials">
+              <a href="https://www.facebook.com/ccdm76/" target="_blank" rel="noreferrer">
+                Facebook
+              </a>
+              <a href="https://www.instagram.com/ccdmacieira/" target="_blank" rel="noreferrer">
+                Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section">
+        <div class="container two-columns">
+          <div>
+            <h2>Quem somos</h2>
+            <p>
+              O Centro Cultural e Desportivo de Macieira é uma associação dedicada ao
+              desenvolvimento cultural e desportivo da região. Valorizamos o convívio,
+              a participação ativa da comunidade e a promoção de talentos locais.
+            </p>
+            <p>
+              Com um trabalho voluntário e apoio dos sócios, organizamos atividades que
+              reforçam o espírito coletivo e a identidade de Macieira.
+            </p>
+          </div>
+          <div class="highlight">
+            <h3>Os nossos valores</h3>
+            <ul>
+              <li>Inclusão e participação comunitária.</li>
+              <li>Formação e desenvolvimento de jovens.</li>
+              <li>Promoção da cultura e do desporto.</li>
+              <li>Espírito de pertença e voluntariado.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="modalidades" class="section alt">
+        <div class="container">
+          <h2>Modalidades e clubes</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Equipa de futebol</h3>
+              <p>
+                A nossa equipa representa Macieira em competições regionais, promovendo o
+                espírito de equipa e a formação desportiva dos atletas.
+              </p>
+              <p class="tag">Treinos regulares · Jogos ao fim de semana</p>
+            </article>
+            <article class="card">
+              <h3>Clube de teatro</h3>
+              <p>
+                O clube de teatro dinamiza produções locais, oficinas de expressão
+                dramática e apresentações para todas as idades.
+              </p>
+              <p class="tag">Ensaios semanais · Espetáculos anuais</p>
+            </article>
+            <article class="card">
+              <h3>Iniciativas culturais</h3>
+              <p>
+                Realizamos eventos culturais, festas e encontros que fortalecem a vida
+                social e cultural de Macieira.
+              </p>
+              <p class="tag">Eventos especiais · Parcerias locais</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="socios" class="section">
+        <div class="container">
+          <h2>Sócios e parceiros</h2>
+          <div class="two-columns">
+            <div>
+              <p>
+                O CCDM cresce com o apoio dos sócios e parceiros. Ao tornar-se sócio,
+                contribui para a continuidade das atividades e tem acesso a benefícios e
+                novidades exclusivas.
+              </p>
+              <div class="partner-box">
+                <h3>Parceiros locais</h3>
+                <p>
+                  Empresas e comerciantes podem apoiar projetos culturais e desportivos,
+                  aumentando a visibilidade e impacto social.
+                </p>
+                <a class="button button-outline" href="mailto:geral@ccdm.pt">
+                  Quero ser parceiro
+                </a>
+              </div>
+            </div>
+            <div class="form-card">
+              <h3>Inscrição de sócio</h3>
+              <form>
+                <label>
+                  Nome completo
+                  <input type="text" name="nome" placeholder="Ex: Ana Silva" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" placeholder="exemplo@email.pt" required />
+                </label>
+                <label>
+                  Telefone
+                  <input type="tel" name="telefone" placeholder="912 345 678" />
+                </label>
+                <label>
+                  Tipo de quota
+                  <select name="quota">
+                    <option>Quota mensal</option>
+                    <option>Quota trimestral</option>
+                    <option>Quota anual</option>
+                  </select>
+                </label>
+                <button type="submit" class="button">Enviar pedido</button>
+              </form>
+            </div>
+          </div>
+          <div class="payment">
+            <h3>Pagamento de quotas</h3>
+            <p>
+              Para facilitar o apoio, disponibilizamos pagamento por transferência ou
+              MB Way. Após preencher o formulário, receberá instruções detalhadas.
+            </p>
+            <div class="payment-actions">
+              <a class="button" href="mailto:tesouraria@ccdm.pt">Pagar quotas</a>
+              <span class="note">Tesouraria: tesouraria@ccdm.pt</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contactos" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Contactos</h3>
+          <p>Rua Principal, Macieira</p>
+          <p>geral@ccdm.pt</p>
+          <p>+351 000 000 000</p>
+        </div>
+        <div>
+          <h3>Redes sociais</h3>
+          <a href="https://www.facebook.com/ccdm76/" target="_blank" rel="noreferrer">
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/ccdmacieira/" target="_blank" rel="noreferrer">
+            Instagram
+          </a>
+        </div>
+        <div>
+          <h3>Horário</h3>
+          <p>Segunda a sexta: 18h00 - 22h00</p>
+          <p>Sábado: 10h00 - 13h00</p>
+        </div>
+      </div>
+      <p class="footer-copy">© 2024 CCDM - Centro Cultural e Desportivo de Macieira</p>
+    </footer>
+  </body>
+</html>
