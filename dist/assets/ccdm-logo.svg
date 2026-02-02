@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="white"/>
+  <circle cx="256" cy="190" r="38" fill="#111111"/>
+  <path d="M256 236L216 314L156 336L174 352L226 332L256 406L286 332L338 352L356 336L296 314L256 236Z" fill="#111111"/>
+  <path d="M120 206C146 154 194 118 256 118" stroke="#D71920" stroke-width="12" stroke-linecap="round"/>
+  <path d="M392 206C366 154 318 118 256 118" stroke="#D71920" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 306C146 358 194 394 256 394" stroke="#D71920" stroke-width="12" stroke-linecap="round"/>
+  <path d="M392 306C366 358 318 394 256 394" stroke="#D71920" stroke-width="12" stroke-linecap="round"/>
+  <path d="M136 246L186 230" stroke="#D71920" stroke-width="10" stroke-linecap="round"/>
+  <path d="M326 230L376 246" stroke="#D71920" stroke-width="10" stroke-linecap="round"/>
+  <text x="256" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#D71920" letter-spacing="6">CCDM</text>
+  <path d="M382 100L424 80V132L382 112" fill="none" stroke="#D71920" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M88 100L130 80V132L88 112" fill="none" stroke="#D71920" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="90" cy="86" r="20" stroke="#D71920" stroke-width="8" fill="none"/>
+  <path d="M82 84H98M90 76V96" stroke="#D71920" stroke-width="6" stroke-linecap="round"/>
+</svg>

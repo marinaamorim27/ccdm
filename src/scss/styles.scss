@@ -7,6 +7,75 @@ html {
     height: 100%;
 }
 
+:root {
+    --ccdm-red: #d71920;
+    --ccdm-black: #111111;
+    --ccdm-red-dark: #b31219;
+}
+
+body {
+    background-color: #fff;
+}
+
+.bg-ccdm-black {
+    background-color: var(--ccdm-black) !important;
+}
+
+.bg-ccdm-red {
+    background-color: var(--ccdm-red) !important;
+}
+
+.text-ccdm-red {
+    color: var(--ccdm-red) !important;
+}
+
+.link-ccdm {
+    color: var(--ccdm-red);
+    text-decoration: none;
+}
+
+.link-ccdm:hover,
+.link-ccdm:focus {
+    color: var(--ccdm-red-dark);
+    text-decoration: underline;
+}
+
+.btn-ccdm {
+    background-color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+    color: #fff;
+}
+
+.btn-ccdm:hover,
+.btn-ccdm:focus {
+    background-color: var(--ccdm-red-dark);
+    border-color: var(--ccdm-red-dark);
+    color: #fff;
+}
+
+.btn-outline-ccdm {
+    color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+}
+
+.btn-outline-ccdm:hover,
+.btn-outline-ccdm:focus {
+    background-color: var(--ccdm-red);
+    border-color: var(--ccdm-red);
+    color: #fff;
+}
+
+.hero-ccdm {
+    background: linear-gradient(120deg, rgba(17, 17, 17, 0.95), rgba(17, 17, 17, 0.75)),
+        url("https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-logo {
+    max-width: 360px;
+}
+
 // Custom SCSS for feature component with Bootstrap icon
 .feature {
     display: inline-flex;

@@ -1,33 +1,19 @@
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+nav.navbar.navbar-expand-lg.navbar-dark.bg-ccdm-black
     .container.px-5
-        a.navbar-brand(href='index.html') Start Bootstrap
+        a.navbar-brand.d-flex.align-items-center.gap-2(href='index.html')
+            img(src='assets/ccdm-logo.svg', alt='Logótipo CCDM', width='36', height='36')
+            span.fw-semibold CCDM Macieira
         button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
             span.navbar-toggler-icon
         #navbarSupportedContent.collapse.navbar-collapse
             ul.navbar-nav.ms-auto.mb-2.mb-lg-0
                 li.nav-item
-                    a.nav-link(href='index.html') Home
+                    a.nav-link(href='index.html#sobre') Sobre
                 li.nav-item
-                    a.nav-link(href='about.html') About
+                    a.nav-link(href='index.html#atividades') Atividades
                 li.nav-item
-                    a.nav-link(href='contact.html') Contact
+                    a.nav-link(href='index.html#socios') Sócios & Quotas
                 li.nav-item
-                    a.nav-link(href='pricing.html') Pricing
+                    a.nav-link(href='index.html#parceiros') Parceiros
                 li.nav-item
-                    a.nav-link(href='faq.html') FAQ
-                li.nav-item.dropdown
-                    a#navbarDropdownBlog.nav-link.dropdown-toggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false')
-                        | Blog
-                    ul.dropdown-menu.dropdown-menu-end(aria-labelledby='navbarDropdownBlog')
-                        li
-                            a.dropdown-item(href='blog-home.html') Blog Home
-                        li
-                            a.dropdown-item(href='blog-post.html') Blog Post
-                li.nav-item.dropdown
-                    a#navbarDropdownPortfolio.nav-link.dropdown-toggle(href='#', role='button', data-bs-toggle='dropdown', aria-expanded='false')
-                        | Portfolio
-                    ul.dropdown-menu.dropdown-menu-end(aria-labelledby='navbarDropdownPortfolio')
-                        li
-                            a.dropdown-item(href='portfolio-overview.html') Portfolio Overview
-                        li
-                            a.dropdown-item(href='portfolio-item.html') Portfolio Item
+                    a.nav-link(href='index.html#contactos') Contactos
