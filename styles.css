@@ -339,6 +339,20 @@ select {
   opacity: 0.8;
 }
 
+.admin-body .hero {
+  background: linear-gradient(120deg, var(--black), #2a0b0f);
+}
+
+.admin-body .hero-panel {
+  background: var(--black);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.admin-body .activity-card a,
+.admin-body .membership-card a {
+  justify-self: start;
+}
+
 @media (max-width: 720px) {
   .main-nav {
     width: 100%;

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CCDM Admin - Centro Cultural e Desportivo de Macieira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="admin-body">
+    <header class="top-bar">
+      <div class="container top-bar-content">
+        <div class="brand">
+          <img src="assets/logo.svg" alt="Logótipo do CCDM" class="logo" />
+          <div>
+            <p class="brand-title">CCDM Admin</p>
+            <p class="brand-subtitle">Gestão interna de sócios e atividades</p>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="index.html">Voltar ao site</a>
+          <a href="#painel">Painel</a>
+          <a href="#formularios">Formulários</a>
+          <a href="#agenda">Agenda</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero admin-hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Área reservada</p>
+            <h1>Backoffice gratuito com Google Sheets, Forms e Calendar.</h1>
+            <p>
+              Esta página concentra o acesso às ferramentas gratuitas onde guardamos
+              sócios, quotas, parceiros e agenda. Substitui os links abaixo pelos links
+              reais da conta Google do CCDM.
+            </p>
+          </div>
+          <div class="hero-panel">
+            <div class="hero-panel-header">
+              <h2>Atalhos rápidos</h2>
+              <span>Admin</span>
+            </div>
+            <div class="stats">
+              <div>
+                <p class="stat-number">Sheets</p>
+                <p class="stat-label">Base de dados de sócios</p>
+              </div>
+              <div>
+                <p class="stat-number">Forms</p>
+                <p class="stat-label">Inscrições e pedidos</p>
+              </div>
+              <div>
+                <p class="stat-number">Calendar</p>
+                <p class="stat-label">Agenda da associação</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="painel" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Painel de gestão</h2>
+            <p>
+              Utilize uma folha Google Sheets para centralizar toda a informação. Crie
+              separadores para Sócios, Quotas, Parceiros e Eventos.
+            </p>
+          </div>
+          <div class="activity-grid">
+            <article class="activity-card">
+              <h3>Base de dados de sócios</h3>
+              <p>
+                Registe contactos, estado das quotas e notas importantes sobre cada
+                membro.
+              </p>
+              <a class="button button-ghost" href="https://docs.google.com/spreadsheets/" target="_blank" rel="noreferrer">
+                Abrir Sheets
+              </a>
+            </article>
+            <article class="activity-card">
+              <h3>Gestão de parceiros</h3>
+              <p>
+                Acompanhe entidades apoiantes, valores, contrapartidas e datas de
+                renovação.
+              </p>
+              <a class="button button-ghost" href="https://docs.google.com/spreadsheets/" target="_blank" rel="noreferrer">
+                Ver parceiros
+              </a>
+            </article>
+            <article class="activity-card">
+              <h3>Quotas e pagamentos</h3>
+              <p>
+                Marque pagamentos recebidos e em atraso, com filtros rápidos para a
+                tesouraria.
+              </p>
+              <a class="button button-ghost" href="https://docs.google.com/spreadsheets/" target="_blank" rel="noreferrer">
+                Atualizar quotas
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="formularios" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>Formulários Google</h2>
+            <p>
+              Use formulários para captar pedidos de inscrição, parcerias e inscrições
+              em eventos. Cada formulário alimenta automaticamente a folha de cálculo.
+            </p>
+          </div>
+          <div class="membership-grid">
+            <div class="membership-card">
+              <h3>Formulário de sócio</h3>
+              <p>
+                Partilhe o link com a comunidade e receba todos os dados numa folha de
+                cálculo.
+              </p>
+              <a class="button" href="https://forms.google.com" target="_blank" rel="noreferrer">
+                Abrir Formulários
+              </a>
+            </div>
+            <div class="membership-card">
+              <h3>Formulário de parceiros</h3>
+              <p>
+                Recolha pedidos de empresas e comerciantes interessados em apoiar o CCDM.
+              </p>
+              <a class="button" href="https://forms.google.com" target="_blank" rel="noreferrer">
+                Criar formulário
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="agenda" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Agenda e eventos</h2>
+            <p>
+              Use o Google Calendar para gerir treinos, ensaios e eventos. O calendário
+              pode ser partilhado com a equipa e incorporado no site público.
+            </p>
+          </div>
+          <div class="payment">
+            <div>
+              <h3>Google Calendar</h3>
+              <p>
+                Crie um calendário partilhado do CCDM e mantenha todas as atividades
+                atualizadas em tempo real.
+              </p>
+            </div>
+            <div class="payment-actions">
+              <a class="button" href="https://calendar.google.com" target="_blank" rel="noreferrer">
+                Abrir Calendar
+              </a>
+              <span class="note">Partilhe com a equipa via email.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Gestão CCDM</h3>
+          <p>Área interna para equipa diretiva</p>
+        </div>
+        <div>
+          <h3>Contacto interno</h3>
+          <p>tesouraria@ccdm.pt</p>
+          <p>geral@ccdm.pt</p>
+        </div>
+        <div>
+          <h3>Documentos</h3>
+          <a href="https://drive.google.com" target="_blank" rel="noreferrer">Drive</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2024 CCDM - Área administrativa</p>
+    </footer>
+  </body>
+</html>
